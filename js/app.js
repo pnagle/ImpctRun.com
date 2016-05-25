@@ -5,8 +5,9 @@
 
     config.$inject = ['$routeProvider', '$locationProvider'];
     function config($routeProvider, $locationProvider) {
+        $locationProvider.html5Mode(true);
         $routeProvider
-            .when('/home', {
+            .when('/', {
                 controller: 'HomeController',
                 templateUrl: 'templates/Home.html',
                 reloadOnSearch: false
@@ -19,8 +20,8 @@
                 
             // })
          
-        .otherwise({ redirectTo: '/home' });
+        .otherwise({ redirectTo: '/' });
     }
-
+ 
  
 })();
