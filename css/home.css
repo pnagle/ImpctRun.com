@@ -1,0 +1,21 @@
+.container {
+    color:white;
+    font-size:200%;
+    font-family: montserrat;
+    display: flex;
+    font-weight: 300;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    background-image: url("/images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #981A8D;
+}
