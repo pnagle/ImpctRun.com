@@ -19,7 +19,7 @@ function HomeController($scope) {
     function init() {
         window.addEventListener('scroll', function(e) {
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 100,
+                shrinkOn = 80,
                 header1 = document.querySelector("header1");
             if (distanceY > shrinkOn) {
                 classie.add(header1, "smaller");
