@@ -14,11 +14,10 @@
                
             })
             
-            // .when('/blog', {
-            //       controller: 'ExController',
-            //   templateUrl: 'templates/blog.html'
-                
-            // })
+            .when('/blog', {
+              controller: 'BlogController',
+              templateUrl: 'templates/Blog.html'
+            })
          
         .otherwise({ redirectTo: '/' });
     }
