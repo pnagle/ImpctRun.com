@@ -157,7 +157,7 @@ header1.smaller {
     background: white;
 }
 header1.smaller .logo {
-    margin-top:-11%;
+    margin-top:-5%;
     height: 60px;
     font-size: 160% !important;
 }
