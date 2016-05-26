@@ -12,7 +12,7 @@ function HomeController($scope) {
         paginationClickable: true,
         spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 2500,
+        autoplay: 25000,
         autoplayDisableOnInteraction: false
     });
 
