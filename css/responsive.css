@@ -43,6 +43,12 @@ header1.smaller .logo {
     color: white;
     font-size: 4vw;
 }
+.text{
+  font-size: 4.4vw !important;
+}
+.textSec{
+  font-size: 3.5vw !important;
+}
 
 
 }
