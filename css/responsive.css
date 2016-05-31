@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
     .container {
      background-position:50%; 
+
 	}
 
 /*Header MObile*/
@@ -33,6 +34,14 @@ header1.smaller .logo {
     height: 60px;
     font-size: 21px !important;
     margin-left: 20px;
+}
+.tagline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 56%;
+    color: white;
+    font-size: 4vw;
 }
 
 
