@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 580px) {
+
+.AboutusPage {
+	 display: block !important;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.aboutimpactRun {
+    font-size: 6.1vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.aboutusText {
+    /* text-align: center; */
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+	}
+	.AboutusPage {
+    display: none;
+}

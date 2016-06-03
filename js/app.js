@@ -1,11 +1,10 @@
 (function () {
     'use strict';
- var app = angular.module('sharingsmiles', ['ngRoute', 'ngCookies'])
+   var app = angular.module('sharingsmiles', ['ngRoute', 'ngCookies',])
         .config(config)
 
     config.$inject = ['$routeProvider', '$locationProvider'];
     function config($routeProvider, $locationProvider) {
-        $locationProvider.html5Mode(true);
         $routeProvider
             .when('/', {
                 controller: 'HomeController',
@@ -18,7 +17,13 @@
               controller: 'BlogController',
               templateUrl: 'templates/Blog.html'
             })
-         
+            
+             .when('/faq', {
+              templateUrl: 'templates/faq.html'
+            })
+             .when('/AboutUs', {
+              templateUrl: 'templates/AboutUs.html'
+            })
         .otherwise({ redirectTo: '/' });
     }
  
