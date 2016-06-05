@@ -1,12 +1,13 @@
 (function () {
     'use strict';
-   var app = angular.module('sharingsmiles', ['ngRoute', 'ngCookies',])
+   var app = angular.module('Impactrun', ['ngRoute', 'ngCookies'])
         .config(config)
 
-    config.$inject = ['$routeProvider', '$locationProvider'];
+    config.$inject = ['$routeProvider', '$locationProvider',];
     function config($routeProvider, $locationProvider) {
+       // $locationProvider.html5Mode(true);
         $routeProvider
-            .when('/', {
+            .when('/home', {
                 controller: 'HomeController',
                 templateUrl: 'templates/Home.html',
                 reloadOnSearch: false
@@ -19,13 +20,16 @@
             })
             
              .when('/faq', {
-              templateUrl: 'templates/faq.html'
+              templateUrl: 'templates/faq.html',
+              controller:'FaqController'
             })
              .when('/AboutUs', {
-              templateUrl: 'templates/AboutUs.html'
+              templateUrl: 'templates/AboutUs.html',
+              controller:'AboutusController'
             })
-        .otherwise({ redirectTo: '/' });
+        .otherwise({ redirectTo: '/home' });
     }
- 
+
+
  
 })();

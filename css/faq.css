@@ -19,6 +19,86 @@
     .containerFaq {
     margin-top: 50px;
      }
+     .faq-tabs {
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 5em auto 0;
+  padding: 0;
+  width: 50%;
+}
+.faq-tabs {
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 5em auto 0;
+  padding: 0;
+  width: 50%;
+}
+
+ul.collapsible-doodads {
+    padding: 0;
+  list-style:none;
+  border-top:4px solid #fff;
+  border-left:4px solid #fff;
+  border-right:4px solid #fff;
+  margin:0;
+  position:relative;
+}
+
+ul.collapsible-doodads li {
+  border-bottom:4px solid #fff;
+  background:#CECBCB;
+  position:relative;
+  padding:1em;
+  border-radius: 5px;
+}
+
+ul.collapsible-doodads li.active {
+  background:#F3EFEF;
+}
+ul.collapsible-doodads li p {
+  transition: height 1s;
+  display:none;
+}
+
+ul.collapsible-doodads li.active p {
+  display:block;
+}
+
+ul.collapsible-doodads li div.gui-button {
+  font-size:36px;
+  float:left;
+  display:block;
+  width:32px;
+  height:32px;
+  background-image: url(http://s.cdpn.io/44303/ui-buttons-sm.png);
+  margin-top:4px;
+  cursor:pointer;
+}
+
+ul.collapsible-doodads li.active div.gui-button {
+  background-position:-32px;
+  margin-top:30px;
+}
+
+ul.collapsible-doodads li div.content {
+  display:block;
+  float:left;
+  margin-left:18px;
+  width:80%;
+}
+
+
+.containerTab {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.col-lg-12 {
+    width: 100%;
+    padding: 0;
+}
+
    }
   .FaqPage{
 	display: none;

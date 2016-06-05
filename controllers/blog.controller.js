@@ -1,7 +1,7 @@
 
-angular.module('sharingsmiles', []).controller('BlogController',BlogController);
+angular.module('Impactrun', []).controller('BlogController',BlogController);
 
-function BlogController($scope,){
+function BlogController($scope){
 
 
 } 
