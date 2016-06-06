@@ -33,7 +33,20 @@
   padding: 0;
   width: 50%;
 }
-
+i.fa.fa-plus-circle {
+    font-size: 20px;
+    position: absolute;
+    top: 21%;
+    left: 8px;
+    color: #3716D6;
+}
+i.fa.fa-minus-circle {
+    position: absolute;
+    font-size: 28px;
+    left: 5px;
+    top: 33px;
+    color:#3716D6;
+}
 ul.collapsible-doodads {
     padding: 0;
   list-style:none;
@@ -45,15 +58,16 @@ ul.collapsible-doodads {
 }
 
 ul.collapsible-doodads li {
-  border-bottom:4px solid #fff;
-  background:#CECBCB;
-  position:relative;
-  padding:1em;
-  border-radius: 5px;
+    border-bottom: 4px solid #fff;
+    background: rgba(207, 216, 245, 0.87);
+    position: relative;
+    padding-left: 1em;
+    text-align: left;
+    border-radius: 5px;
 }
 
 ul.collapsible-doodads li.active {
-  background:#F3EFEF;
+  background:#E7E7EF;
 }
 ul.collapsible-doodads li p {
   transition: height 1s;
@@ -64,16 +78,34 @@ ul.collapsible-doodads li.active p {
   display:block;
 }
 
-ul.collapsible-doodads li div.gui-button {
-  font-size:36px;
-  float:left;
-  display:block;
-  width:32px;
-  height:32px;
-  background-image: url(http://s.cdpn.io/44303/ui-buttons-sm.png);
-  margin-top:4px;
-  cursor:pointer;
+ul.collapsible-doodads li div.icon2 {
+    font-size: 36px;
+    float: left;
+    display: block;
+    margin-top: 4px;
+    cursor: pointer;
+    display: none;
 }
+ul.collapsible-doodads li.active div.icon {
+  background-position:-32px;
+  margin-top:30px;
+  display: none;
+}
+ul.collapsible-doodads li.active div.icon2 {
+  background-position:-32px;
+  margin-top:30px;
+  display: block;
+}
+ul.collapsible-doodads li div.gui-button {
+    width: 93%;
+    position: relative;
+    font-size: 36px;
+    float: left;
+    display: block;
+    margin-top: 4px;
+    margin: 0px 0px 0px 23px;
+}
+
 
 ul.collapsible-doodads li.active div.gui-button {
   background-position:-32px;
