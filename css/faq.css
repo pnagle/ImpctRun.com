@@ -97,13 +97,15 @@ ul.collapsible-doodads li.active div.icon2 {
   display: block;
 }
 ul.collapsible-doodads li div.gui-button {
-    width: 93%;
+    width: 100%;
     position: relative;
     font-size: 36px;
     float: left;
     display: block;
+    z-index: 10;
     margin-top: 4px;
-    margin: 0px 0px 0px 23px;
+    padding-left: 37px;
+    margin-left: -20px;
 }
 
 
