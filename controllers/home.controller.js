@@ -7,6 +7,7 @@ function HomeController($scope) {
             $("body").fadeIn(400);
         });
     };
+    new WOW().init();
 
     // var swiper = new Swiper('.swiper-container', {
     //     pagination: '.swiper-pagination',

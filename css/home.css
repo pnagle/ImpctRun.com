@@ -1,16 +1,33 @@
-.container {
+.containerHome {
     font-weight: 300;
     text-align: center;
-    background-image: url("/images/background_image.jpg");
+    background-image: url("/ImpactRunSiteImages/ImpactRun_img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    background-position: 50% 90%;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: 750px;
     background-color: white;
+}
+img.HomeSecondImage {
+    width: 35.3%;
+    right: 0;
+    float: right;
+    margin-top: -50px;
+}
+
+.containerSecond1 {
+    width: 30.3%;
+    height: 489px;
+    position: absolute;
+    z-index: 10;
+     border-left: 5px solid rgb(48, 93, 169);
+    border-top: 5px solid rgb(48, 93, 169);
+    border-bottom: 5px solid rgb(48, 93, 169);
+    right: 0;
 }
 /*.overlay {
     background: rgba(232, 236, 109, 0.37);
@@ -25,25 +42,22 @@
     display: none;
 }
 .text {
-    color: #464040;
+    color: #FFFFFF;
     font-family: montserrat;
     z-index: 0;
-    font-size: 3.2vw;
+    font-size: 1.2vw;
     width: 75%;
     position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 35%;
+    top: 45%;
 }
 .logo {
+    padding-top: 30px;
     font-family: montserrat,sans-serif;
-    color: #3716D6 !important;
     font-size: 2.7vw;
-    position: absolute;
-    left: 0;
-    margin: 0 auto;
-    font-weight: 700;
+    color: white;
 }
 .logoMenu {
     font-size: 229%;
@@ -103,7 +117,7 @@
 -------------------------------------------------------------- */
 
 header1 {
-    width: 100%;
+    width: 20%;
     height: 75px;
     overflow: hidden;
     position: absolute;
@@ -212,4 +226,295 @@ img.phoneimageIN {
     font-size: 1.5vw;
     color: black;
     font-family: montserrat;
+}
+.ContainerSecondText {
+    width: 65%;
+    text-align: left;
+}
+.textWrap {
+    padding: 12vw;
+    padding-left: 20vw;
+}
+.ContainerSecondText p {
+    color: rgb(48, 93, 169);
+    margin-left: -45px;
+    font-size: 26px;
+}
+.ContainerSecondText h2 {
+    color: rgb(48, 93, 169);
+    font-weight: 36px;
+}
+
+
+.lineTilt {
+    transform: rotate(40deg);
+    height: 275px;
+    width: 1px;
+    background-color: orange;
+    margin-top: -194px;
+    margin-left: 194px;
+}
+img.HomeThirdImage {
+    background: white;
+    padding-top: 27px;
+    width: 33.3%;
+    height: 100%;
+}
+.ContainerThird{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    background: rgb(48, 93, 169);
+    color: white;
+}
+.textWrapThird {
+    padding: 11vw;
+    padding-top: 16vw;
+}
+.containerThird1 {
+    height: 489px;
+    width: 30.3%;
+    position: absolute;
+    left: 0;
+    border-right: 5px solid rgb(48, 93, 169);
+    border-top: 5px solid rgb(48, 93, 169);
+    border-bottom: 5px solid rgb(48, 93, 169);
+
+}
+.ContainerThirdText p{
+    width: 62%;
+    font-size: 26px;
+    margin-left: -52px;
+}
+ .ContainerThirdText h2 {
+    font-size: 36px;
+    width: 85%;
+}
+.NowText{
+    text-align: center;
+}
+.NowText2{
+    text-align: center;
+    margin-top: -95px;
+}
+.NowText h1{
+    font-size: 40vw;
+    font-weight: 900;
+    color: #F1F1F1;
+}
+.NowText2 h1{
+    font-size: 40vw;
+    font-weight: 900;
+    color: #F1F1F1;
+}
+.ContainerFourth {
+    margin-top: -177px;
+    z-index: 0;
+}
+.ContainerFifth{
+    height: 900px;
+    position: relative;
+    z-index: 10;
+    margin-top: -221px;
+    background: white;
+}
+.ContainerFourthText {
+    text-align: center;
+}
+.ContainerFourthText h2 {
+    font-weight: 700;
+    color: #1C3490;
+    font-size: 5vw;
+}
+.ContainerFourthText p {
+    color: rgb(48, 93, 169);
+    font-size: 2vw;
+    font-weight: 700;
+}
+.lineTilt2 {
+    transform: rotate(40deg);
+    height: 275px;
+    width: 1px;
+    background-color: orange;
+    margin-left: 50%;
+    margin-top: -180px;
+}
+.textWrapFifth {
+    padding: 5vw;
+    padding-left: 13vw;
+}
+.ContainerFifthText {
+    width: 35%;
+    text-align: left;
+}
+.lineTiltFifth {
+    transform: rotate(40deg);
+    height: 196px;
+    width: 1px;
+    background-color: orange;
+    margin-top: -149px;
+    margin-left: 168px;
+}
+.ContainerFifthText h2 {
+    font-size: 40px;
+    color: rgb(48, 93, 169);
+}
+.FifthSlidWrap img {
+    width: 51.3%;
+    float: right;
+}
+
+.FifthBorder {
+    position: absolute;
+    height: 436px;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: 57px 34% 0 auto;
+    border: 5px solid #1C3490;
+}
+.FifthBorder p{
+   color: #1C3490;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.ContainerSixth{
+    height: 900px;
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+
+
+.textWrapSixth {
+    padding: 5vw;
+    padding-left: 13vw;
+}
+.ContainerSixthText {
+    width: 35%;
+    text-align: left;
+}
+.lineTiltSixth {
+    transform: rotate(40deg);
+    height: 196px;
+    width: 1px;
+    background-color: orange;
+    margin-top: -149px;
+    margin-left: 168px;
+}
+.ContainerSixthText h2 {
+    font-size: 40px;
+    color: rgb(48, 93, 169);
+}
+.SixthSlidWrap img {
+    height: 550px;
+    width: 51.3%;
+    float: right;
+}
+.SixthBorder {
+    position: absolute;
+    height: 436px;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: 57px 34% 0 auto;
+    border: 5px solid #1C3490;
+}
+.SixthBorder p {
+   color: #1C3490;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.ContainerSeventh{
+    height: 900px;
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+
+
+.textWrapSeventh{
+    padding: 5vw;
+    padding-left: 13vw;
+}
+.ContainerSeventhText {
+    width: 35%;
+    text-align: left;
+}
+.lineTiltSeventh {
+    transform: rotate(40deg);
+    height: 196px;
+    width: 1px;
+    background-color: orange;
+    margin-top: -149px;
+    margin-left: 168px;
+}
+.ContainerSeventhText h2 {
+    font-size: 40px;
+    color: rgb(48, 93, 169);
+}
+.SeventhSlidWrap img {
+    height: 550px;
+    width: 51.3%;
+    float: right;
+}
+.SeventhBorder {
+    position: absolute;
+    height: 436px;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin: 57px 34% 0 auto;
+    border: 5px solid #1C3490;
+}
+.SeventhBorder p {
+    color: #1C3490;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 10px;
+}
+.lastslide.ng-scope {
+    background-image: url("/ImpactRunSiteImages/ImpactRun_img7.jpg");
+    background-size: contain;
+    height: 900px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 11;
+}
+.lastslide h1{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: montserrat;
+}
+
+.lastslide p {
+    text-align: right;
+    color: orange;
+    margin-right: 150px;
+    font-family: montserrat;
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.lastslide h2 {
+    text-align: right;
+    margin-right: 150px;
+    color: white;
+    padding-top: 25%;
+    font-size: 60px;
+    font-family: montserrat;
+}
+img.ViewApp {
+    height: 200px;
+    margin-left: 88px;
+    margin-top: 300px;
+    position: absolute;
+    width: 32%;
 }
