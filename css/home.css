@@ -13,21 +13,24 @@
     position: absolute;
     background-color: white;
 }
+
 img.HomeSecondImage {
     width: 35.3%;
+    position: absolute;
     right: 0;
-    float: right;
-    margin-top: -50px;
+    margin-top: -5%;
+    height: 100%;
 }
 
 .ContainerSecond.ng-scope {
     width: 100%;
     position: absolute;
-    top: 88%;
+    top: 90%;
+    height: 100%;
 }
 .ContainerThird {
     position: absolute;
-    top: 180%;
+    top: 190%;
     height: 100%;
     z-index: 10;
     width: 100%;
@@ -37,10 +40,10 @@ img.HomeSecondImage {
 }
 .containerSecond1 {
     width: 30.3%;
-    height: 489px;
+    height: 82%;
     position: absolute;
     z-index: 10;
-     border-left: 5px solid rgb(48, 93, 169);
+    border-left: 5px solid rgb(48, 93, 169);
     border-top: 5px solid rgb(48, 93, 169);
     border-bottom: 5px solid rgb(48, 93, 169);
     right: 0;
@@ -61,7 +64,7 @@ img.HomeSecondImage {
     color: #FFFFFF;
     font-family: montserrat;
     z-index: 0;
-    font-size: 1.2vw;
+    font-size:  2vmin;
     width: 75%;
     position: absolute;
     left: 0;
@@ -244,102 +247,113 @@ img.phoneimageIN {
     font-family: montserrat;
 }
 .ContainerSecondText {
-    width: 65%;
+    height: 100%;
+    position: absolute;
+    margin-top: 39vh;
+    margin-left: 10vw;
+    width: 50%;
     text-align: left;
 }
 .textWrap {
-    padding: 12vw;
-    padding-left: 20vw;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
 }
 .ContainerSecondText p {
     color: rgb(48, 93, 169);
     margin-left: -45px;
-    font-size: 26px;
+    font-size: 1.3vw;
 }
 .ContainerSecondText h2 {
     color: rgb(48, 93, 169);
-    font-weight: 36px;
+    font-size: 1.8vw;
 }
 
 
 .lineTilt {
+    position: absolute;
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
     transform: rotate(40deg);
-    height: 275px;
-    width: 1px;
+    height: 40%;
+    width: 0.2%;
+    top: 27vh;
+    left: 26vw;
     background-color: orange;
-    margin-top: -194px;
-    margin-left: 194px;
 }
 img.HomeThirdImage {
     background: white;
-    padding-top: 27px;
+    padding-top: 5%;
     width: 33.3%;
     height: 100%;
 }
 .textWrapThird {
-    padding: 11vw;
-    padding-top: 16vw;
+    padding-left: 21vw;
+    padding-top: 29vh;
 }
 .containerThird1 {
-    height: 489px;
+    height: 67%;
     width: 30.3%;
     position: absolute;
     left: 0;
     border-right: 5px solid rgb(48, 93, 169);
     border-top: 5px solid rgb(48, 93, 169);
     border-bottom: 5px solid rgb(48, 93, 169);
-
 }
-.ContainerThirdText p{
-    width: 62%;
+.lineTilt.Second {
+    left: 65vw;
+    top: 20vh;
+}
+.ContainerThirdText p {
+    width: 60%;
     font-size: 26px;
     margin-left: -52px;
 }
  .ContainerThirdText h2 {
-    font-size: 36px;
-    width: 85%;
-}
-.ContainerFourth {
-    margin-top: -177px;
-    z-index: 0;
+    font-size: 1.8vw;
+    width: 100%;
 }
 .NowText{
     text-align: center;
 }
 .NowText2{
     text-align: center;
-    margin-top: -95px;
 }
 .NowText h1{
-    font-size: 40vw;
+  
     font-weight: 900;
     color: #F1F1F1;
 }
 .NowText2 h1{
-    font-size: 40vw;
+
     font-weight: 900;
     color: #F1F1F1;
 }
 
 .ContainerFourth {
     position: absolute;
-    top: 239%;
+    top: 290%;
     width: 100%;
-    margin-top: -177px;
-    z-index: 0;
-    height: 63%;
+    z-index: 100;
+    height: 100%;
 }
 .ContainerFifth {
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: 10;
-    top: 367%;
-    margin-top: -221px;
+    top: 390%;
     background: white;
 }
 .ContainerFourthText {
+    position: absolute;
     text-align: center;
+    left: 0;
+    right: 0;
+    top: 36vh;
 }
 .ContainerFourthText h2 {
     font-weight: 700;
@@ -352,6 +366,10 @@ img.HomeThirdImage {
     font-weight: 700;
 }
 .lineTilt2 {
+    -moz-transform: rotate(40deg);  
+    -o-transform: rotate(40deg);  
+    -webkit-transform: rotate(40deg);  
+    -ms-transform: rotate(40deg);  
     transform: rotate(40deg);
     height: 275px;
     width: 1px;
@@ -368,6 +386,10 @@ img.HomeThirdImage {
     text-align: left;
 }
 .lineTiltFifth {
+    -moz-transform: rotate(40deg);  
+    -o-transform: rotate(40deg);  
+    -webkit-transform: rotate(40deg);  
+    -ms-transform: rotate(40deg);  
     transform: rotate(40deg);
     height: 196px;
     width: 1px;
@@ -376,27 +398,38 @@ img.HomeThirdImage {
     margin-left: 168px;
 }
 .ContainerFifthText h2 {
-    font-size: 40px;
+    font-size: 3.2vw;
     color: rgb(48, 93, 169);
 }
-.FifthSlidWrap img {
-    width: 51.3%;
-    float: right;
-}
-
-.FifthBorder {
+.FifthSlidWrap {
+    top: 0;
+    width: 100%;
     position: absolute;
-    height: 436px;
+    height: 100%;
+}
+.FifthSlidWrap img {
+    height: 70%;
+    width: 51%;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    bottom: 0;
+}
+.FifthBorder {
+    z-index: 10;
+    position: absolute;
+    height: 56%;
     width: 35%;
     left: 0;
     right: 0;
     margin: 57px 34% 0 auto;
     border: 5px solid #1C3490;
+    bottom: 7vh;
 }
-.FifthBorder p{
-   color: #1C3490;
-    font-size: 28px;
-    width: 50%;
+.FifthBorder p {
+    color: #1C3490;
+    font-size: 2.2vh;
+    width: 40%;
     margin-left: 10px;
 }
 
@@ -408,11 +441,16 @@ img.HomeThirdImage {
     height: 100%;
     position: absolute;
     width: 100%;
-    top: 460%;
+    top: 490%;
     z-index: 10;
     background: white;
 }
-
+.SixthSlidWrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
 
 .textWrapSixth {
     padding: 5vw;
@@ -423,6 +461,10 @@ img.HomeThirdImage {
     text-align: left;
 }
 .lineTiltSixth {
+    -moz-transform: rotate(40deg);  
+    -o-transform: rotate(40deg);  
+    -webkit-transform: rotate(40deg);  
+    -ms-transform: rotate(40deg);  
     transform: rotate(40deg);
     height: 196px;
     width: 1px;
@@ -431,27 +473,31 @@ img.HomeThirdImage {
     margin-left: 168px;
 }
 .ContainerSixthText h2 {
-    font-size: 40px;
+    font-size: 3vw;
     color: rgb(48, 93, 169);
 }
 .SixthSlidWrap img {
-    height: 550px;
+    position: absolute;
+    height: 70%;
     width: 51.3%;
-    float: right;
+    right: 0;
+    bottom: 0;
 }
 .SixthBorder {
     position: absolute;
-    height: 436px;
-    width: 35%;
+    height: 56%;
+    width: 36%;
     left: 0;
     right: 0;
+    z-index: 1;
     margin: 57px 34% 0 auto;
     border: 5px solid #1C3490;
+    bottom: 7vh;
 }
 .SixthBorder p {
    color: #1C3490;
-    font-size: 28px;
-    width: 50%;
+    font-size: 2.2vh;
+    width: 40%;
     margin-left: 10px;
 }
 
@@ -461,7 +507,7 @@ img.HomeThirdImage {
     height: 100%;
     position: absolute;
     width: 100%;
-    top: 560%;
+    top: 590%;
     z-index: 10;
     background: white;
 }
@@ -476,6 +522,10 @@ img.HomeThirdImage {
     text-align: left;
 }
 .lineTiltSeventh {
+    -moz-transform: rotate(40deg);  
+    -o-transform: rotate(40deg);  
+    -webkit-transform: rotate(40deg);  
+    -ms-transform: rotate(40deg);  
     transform: rotate(40deg);
     height: 196px;
     width: 1px;
@@ -484,38 +534,58 @@ img.HomeThirdImage {
     margin-left: 168px;
 }
 .ContainerSeventhText h2 {
-    font-size: 40px;
+    font-size: 3vw;
     color: rgb(48, 93, 169);
 }
+.SeventhSlidWrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
 .SeventhSlidWrap img {
-    height: 550px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 70%;
     width: 51.3%;
     float: right;
 }
 .SeventhBorder {
     position: absolute;
-    height: 436px;
+    height: 56%;
     width: 35%;
     left: 0;
+    bottom: 7vh;
     right: 0;
+    z-index: 1;
     margin: 57px 34% 0 auto;
     border: 5px solid #1C3490;
 }
 .SeventhBorder p {
     color: #1C3490;
-    font-size: 28px;
-    width: 50%;
+    font-size: 2.2vh;
+    width: 40%;
     margin-left: 10px;
 }
 .ContainerEight{
     position: absolute;
-    top: 670%;
+    top: 691%;
     height: 100%;
     z-index: 10;
     width: 100%;
     display: flex;
     background: rgb(48, 93, 169);
     color: white;
+}
+.ContainerEightText p {
+    width: 88%;
+    font-size: 26px;
+    margin-left: -52px;
+}
+.ContainerEightText h2 {
+    font-size: 1.8vw;
+    width: 100%;
 }
 .lastslide.ng-scope {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img7.jpg");
@@ -524,7 +594,7 @@ img.HomeThirdImage {
     margin-top: -60px;
     position: absolute;
     z-index: 11;
-    top: 777%;
+    top: 790%;
     width: 100%;
 }
 .lastslide h1{
@@ -536,26 +606,33 @@ img.HomeThirdImage {
 }
 
 .lastslide p {
-    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 6vh;
     color: orange;
     margin-right: 150px;
     font-family: montserrat;
-    font-weight:bold;
-    font-size: 20px;
-    margin-top: -10px;
+    font-weight: bold;
+    font-size: 0.8vw;
 }
 .lastslide h2 {
-    text-align: right;
     margin-right: 150px;
     color: white;
-    padding-top: 25%;
-    font-size: 60px;
+    bottom: 10vh;
+    font-size: 1.8vw;
     font-family: montserrat;
+    position: absolute;
+    right: 0;
 }
 img.ViewApp {
-    height: 200px;
-    margin-left: 88px;
-    margin-top: 300px;
     position: absolute;
-    width: 32%;
+    width: 16%;
+    left: 7vw;
+    bottom: 6vh;
+}
+.WraptextLastSlide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
 }
