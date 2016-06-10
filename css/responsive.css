@@ -37,9 +37,9 @@
     -webkit-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
-    height: 46%;
+    height: 85%;
     width: 1px;
-    left: -5%;
+    left: 26%;
     top: 40vh !important;
     background-color: orange;
 }
@@ -86,14 +86,19 @@
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img4.jpg");
 }
 .textWrapThird {
-    background: #193E82;
+     background: #193E82;
     position: absolute;
     height: 100%;
     width: 57%;
     right: 0;
     top: 0;
     padding-left: 21vw;
-    padding-top: 29vh;
+    padding-top: 20vh;
+}
+
+.lineTilt.Second {
+    left: 0%;
+    height: 45%;
 }
 .containerThird1 {
     height: 67%;
@@ -140,10 +145,9 @@
     margin-top: 45vh;
 }
 .lastslide p.wow.slideInRight {
-    text-align: center;
-    width: 100%;
-    margin-left: 14vw;
-    margin-top: -6vh;
+    width: 42%;
+    margin-left: 44vw;
+    margin-top: -37px;
     font-size: 5.2vw;
     position: relative;
 }
@@ -157,8 +161,143 @@ img.ViewApp {
 .SecondSLideLastText {
 
     letter-spacing: 1px;
-    margin-top: 80vh;
+    margin-top: 86vh;
 }
+.ContainerFourthText.wow.pulse {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    text-align: left;
+    top: 10%;
+    left: 10%;
+}
+.ContainerFourthText h2 {
+    font-weight: 700;
+    color: #1C3490;
+    font-size: 24vw;
+}
+.ContainerFifthText h2 {
+    font-size: 5.8vw;
+    font-weight: 600;
+    color: rgb(48, 93, 169);
+}
+
+.ContainerFourthText p {
+    font-size: 7vw;
+    width: 85vw;
+}
+.lineTilt2 {
+    position: absolute;
+    height: 102%;
+    margin-left: 50%;
+    top: 74px;
+}
+.now2 {
+    display: none;
+}
+.CauseBackground1 {
+  left: 0;
+    width: 45%;
+    height: 100%;
+    background-position: 52%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.CauseBackground2 {
+   left: 0;
+    width: 45%;
+    height: 100%;
+    background-position: 64%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.CauseBackground3 {
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-position: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textWrapFifth{
+  right: 0;
+}
+.ContainerFifthText {
+    width: 51vw;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: -34vw;
+}
+
+.lineTiltFifth {
+    display: none;
+}
+.FifthBorder {
+    z-index: 10;
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 57px 10% 0 auto;
+    border: 5px solid #1C3490;
+    bottom: 7vh;
+}
+
+.FifthBorder p {
+    color: #1C3490;
+    font-size: 2.4vh;
+    width: 52%;
+    margin-left: 10px;
+    text-align: left;
+    float: right;
+    margin-top: 60vh;
+    font-weight: 500;
+}
+.SixthBorder{
+   z-index: 10;
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 57px 10% 0 auto;
+    border: 5px solid #1C3490;
+    bottom: 7vh;
+
+}
+.SixthBorder p {
+    color: #1C3490;
+    font-size: 2.4vh;
+    width: 52%;
+    margin-left: 10px;
+    text-align: left;
+    float: right;
+    margin-top: 57vh;
+    font-weight: 500;
+}
+.SeventhBorder{
+   z-index: 10;
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 57px 10% 0 auto;
+    border: 5px solid #1C3490;
+    bottom: 7vh;
+
+}
+.SeventhBorder p {
+    color: #1C3490;
+    font-size: 2.4vh;
+    width: 52%;
+    float: right;
+    margin-top: 54vh;
+    font-weight: 500;
+}
+
 
 /*Header MObile*/
 header1 {
@@ -239,9 +378,9 @@ a:active {
   text-decoration: none;
 }
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: montserrat;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 .outer-menu {
