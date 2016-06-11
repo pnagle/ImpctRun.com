@@ -265,6 +265,8 @@ img.phoneimageIN {
     font-weight: 600;
     color: rgb(48, 93, 169);
     font-size: 2.2vw;
+    position: absolute;
+    z-index: 1000;
 }
 
 .lineTilt {
@@ -341,9 +343,11 @@ img.phoneimageIN {
     font-size: 1.4vw;
     margin-left: -52px;
 }
- .ContainerThirdText h2 {
+.ContainerThirdText h2 {
+    position: relative;
     font-size: 2.3vw;
     width: 100%;
+    z-index: 998;
 }
 .NowText{
     text-align: center;
@@ -410,14 +414,18 @@ img.phoneimageIN {
     top: 30vh;
 }
 .ContainerFourthText h2 {
+    position: relative;
     font-weight: 700;
     color: #1C3490;
     font-size: 5vw;
+    z-index: 100;
 }
 .ContainerFourthText p {
     color: rgb(48, 93, 169);
     font-size: 2vw;
     font-weight: 700;
+    position: relative;
+    z-index: 1000;
 }
 .lineTilt2 {
     -moz-transform: rotate(40deg);  
@@ -677,6 +685,16 @@ img.phoneimageIN {
     z-index: 1;
     background-position: 13vw -43vh;
 }
+.textWrapEight{
+    background: #193E82;
+    position: absolute;
+    height: 100%;
+    width: 62%;
+    right: 0;
+    top: 0;
+    padding-left: 15vw;
+    padding-top: 42vh;
+}
 .ContainerEightText p {
     width: 88%;
     font-size: 1.4vw;
@@ -685,6 +703,15 @@ img.phoneimageIN {
 .ContainerEightText h2 {
     font-size: 2.3vw;
     width: 100%;
+}
+.containerEight1 {
+    height: 67%;
+    width: 30.3%;
+    position: absolute;
+    left: 0;
+    border-right: 5px solid rgb(48, 93, 169);
+    border-top: 5px solid rgb(48, 93, 169);
+    border-bottom: 5px solid rgb(48, 93, 169);
 }
 .lastslide.ng-scope {
     background-image: url("/ImpactRunSiteImages/ImpactRun_Img7.jpg");
@@ -728,6 +755,7 @@ img.ViewApp {
     width: 16%;
     left: 7vw;
     bottom: 6vh;
+    z-index: 1;
 }
 .WraptextLastSlide {
     position: absolute;
