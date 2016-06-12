@@ -26,7 +26,7 @@
             direction: 'horizontal',
             touchEventsTarget: 'container',
             initialSlide: 0,
-            speed: 300,
+            speed: 1500,
             // autoplay
             autoplay: false,
             autoplayDisableOnInteraction: true,
@@ -106,7 +106,7 @@
             shortSwipes: true,
             longSwipes: true,
             longSwipesRatio: 0.5,
-            longSwipesMs: 300,
+            longSwipesMs: 1500,
             followFinger: true,
             onlyExternal: false,
             threshold: 0,
@@ -1607,7 +1607,7 @@
             if (s.allowClick) {
                 s.updateClickedSlide(e);
                 s.emit('onTap', s, e);
-                if (timeDiff < 300 && (touchEndTime - lastClickTime) > 300) {
+                if (timeDiff < 1500 && (touchEndTime - lastClickTime) > 1500) {
                     if (clickTimeout) clearTimeout(clickTimeout);
                     clickTimeout = setTimeout(function () {
                         if (!s) return;
@@ -1615,10 +1615,10 @@
                             s.paginationContainer.toggleClass(s.params.paginationHiddenClass);
                         }
                         s.emit('onClick', s, e);
-                    }, 300);
+                    }, 1500);
         
                 }
-                if (timeDiff < 300 && (touchEndTime - lastClickTime) < 300) {
+                if (timeDiff < 1500 && (touchEndTime - lastClickTime) < 1500) {
                     if (clickTimeout) clearTimeout(clickTimeout);
                     s.emit('onDoubleTap', s, e);
                 }
@@ -1670,7 +1670,7 @@
                         }
                         // this implies that the user stopped moving a finger then released.
                         // There would be no events with distance zero, so the last event is stale.
-                        if (time > 150 || (new window.Date().getTime() - lastMoveEvent.time) > 300) {
+                        if (time > 150 || (new window.Date().getTime() - lastMoveEvent.time) > 1500) {
                             s.velocity = 0;
                         }
                     } else {
@@ -3213,7 +3213,7 @@
                     clearTimeout(s.mousewheel.timeout);
                     s.mousewheel.timeout = setTimeout(function () {
                         s.slideReset();
-                    }, 300);
+                    }, 1500);
                 }
                 else {
                     if (s.params.lazyLoading && s.lazy) {

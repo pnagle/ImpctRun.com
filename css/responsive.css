@@ -27,11 +27,35 @@
     height: 370px;
     width: 80%;
 }
+.WraptextLastSlide2 {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 100%;
+}
+.WraptextLastSlide2 h2 {
+    font-size: 30px !important;
+    bottom: 0px ;
+    text-align: center;
+    top:380px;
+    left: 0;
+    margin: 0!important;
+}
+
+p.wow.slideInRight.contact {
+    top: 450px;
+    left: 0;
+}
+p.wow.slideInRight.contact2 {
+    top: 430px;
+    left: 0;
+}
+
 .text {
     color: #FFFFFF;
     font-family: montserrat light;
     z-index: 0;
-    font-size: 2.3vh;
+    font-size: 4.3vw;
     font-weight: 100;
     width: 75%;
     position: absolute;
@@ -68,19 +92,20 @@
         position: absolute;
         text-align: left;
         margin-top: 250px;
+        width: 200px;
     }
-    .ContainerSecondText p {
-        color: rgb(48, 93, 169);
-        margin-left: -5%;
-        letter-spacing: 1px;
-        font-size: 3.3vw !important;
-    }
-    .ContainerSecondText h2 {
-        color: rgb(48, 93, 169);
-        font-size: 4.8vw;
-        line-height: 25px;
-        letter-spacing: 1px;
-    }
+   .ContainerSecondText p {
+    color: rgb(48, 93, 169);
+    margin-left: 2%;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+   .ContainerSecondText h2 {
+    color: rgb(48, 93, 169);
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
     .backgroundImageThird {
         background-image: url("/ImpactRunSiteImages/ImpactRun_QMark.png");
         position: absolute;
@@ -118,7 +143,6 @@
     height: 250px;
     bottom: 0;
     left: 0;
-    top: 250px;
      }
     .ContainerThird {
         position: relative;
@@ -136,12 +160,9 @@
         border-bottom: 5px solid rgb(48, 93, 169);
     }
     .centerdiv {
-        width: 100%;
-        margin-top: 42vh;
-        height: 100%;
-        margin-left: -10vw;
-        /* z-index: 10000; */
-        /* background: aquamarine; */
+    margin-left: -10vw;
+    position: relative;
+    bottom: 100px;
     }
     .ContainerThirdText.wow.slideInRight {
     left: 88px;
@@ -165,26 +186,26 @@
     }
     .lastslide h1 {
         text-align: center;
-        font-size: 4.3vh;
+        font-size: 6.3vw;
         color: white;
         font-family: montserrat;
         padding-top: 32px;
     }
     .lastslide h2 {
-        position: relative;
-        text-align: center;
-        margin-right: 0;
-        font-size: 12.8vw;
-        font-family: montserrat;
-        margin-top: 45vh;
-    }
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+    font-size: 12.8vw;
+    font-family: montserrat;
+    margin-top: 131px;
+}
     .lastslide p.wow.slideInRight {
-        width: 42%;
-        margin-left: 44vw;
-        margin-top: -37px;
-        font-size: 5.2vw;
-        position: relative;
-    }
+    text-align: center;
+    width: 100%;
+    margin-top: -37px;
+    font-size: 5.2vw;
+    position: relative;
+}
     img.ViewApp {
         position: absolute;
         left: 0;
@@ -203,7 +224,7 @@
     .ContainerFourthText.wow.pulse {
         position: relative;
         width: 10%;
-        height: 100%;
+        height: 550px;
         text-align: left;
         top: 10%;
         left: 10%;
@@ -212,6 +233,7 @@
         font-weight: 700;
         color: #1C3490;
         font-size: 24vw;
+        line-height: 100px;
     }
     .ContainerFifth {
         position: relative;
@@ -293,7 +315,7 @@
     }
     .FifthBorder p {
         color: #1C3490;
-        font-size: 2.3vh;
+        font-size: 18px;
         width: 52%;
         font-weight: 500;
         position: absolute;
@@ -302,7 +324,7 @@
     }
     .SixthBorder p {
         color: #1C3490;
-        font-size: 2.3vh;
+        font-size: 18px;
         width: 52%;
         position: absolute;
         right: 0;
@@ -333,7 +355,7 @@
     }
     .SeventhBorder p {
         color: #1C3490;
-        font-size: 2.3vh;
+        font-size: 18px;
         width: 52%;
         position: absolute;
         bottom: 0;
@@ -368,16 +390,17 @@
     bottom: 0;
     right: 0;
     z-index: 100;
+    top:0;
 }
 .lineTilt.Third {
-    height: 150px;
+    height: 55%;
     margin-top: 172px;
     left: 100px;
 }
 .lastslide.ng-scope {
     z-index: 11;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 0px;
     position: relative;
     height: 650px;
 }

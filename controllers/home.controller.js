@@ -10,7 +10,6 @@ function HomeController($scope) {
     new WOW().init();
       var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        
         paginationClickable: true,
         centeredSlides: true,
         autoplay: 3000,

@@ -1,3 +1,9 @@
+
+
+.wow {
+   visibility: hidden;
+}
+
 .containerHome {
     font-weight: 300;
     text-align: center;
@@ -56,7 +62,8 @@
     text-align: center;
     color: #193E82;
     letter-spacing: 5px;
-    margin-top: 75vh;
+    margin-top: 58vh;
+    margin-left: 8vw;
 }
 .square {
     height: 15px;
@@ -82,7 +89,7 @@
     color: #FFFFFF;
     font-family: montserrat light;
     z-index: 0;
-    font-size:  2vmin;
+    font-size:  2.1vw;
     font-weight: 100;
     width: 75%;
     position: absolute;
@@ -94,7 +101,7 @@
 .logo {
     padding-top: 30px;
     font-family: montserrat,sans-serif;
-    font-size: 2.7vw;
+    font-size: 4.7vw;
     color: white;
 }
 .logoMenu {
@@ -311,7 +318,7 @@ img.phoneimageIN {
     right: 0;
     top: 0;
     padding-left: 15vw;
-    padding-top: 42vh;
+    padding-top: 10vh;
 }
 .ContainerThirdText.wow.slideInRight {
     z-index: 100;
@@ -320,9 +327,9 @@ img.phoneimageIN {
 
 
 .lineTilt.Third {
-    height: 35%;
-    top: 30vh;
-    left: 31vw;
+    height: 150%;
+    top: 0;
+    left: 12vw;
 }
 .containerThird1 {
     height: 67%;
@@ -334,16 +341,19 @@ img.phoneimageIN {
     border-bottom: 5px solid rgb(48, 93, 169);
 }
 .lineTilt.Second {
-    top: 0;
-    height: 173%;
-    left: 16vw;
+    top: -17px;
+    height: 150%;
+    left: 11vw;
 }
 .ContainerThirdText p {
+    margin-top: 100px;
     width: 67%;
     font-size: 1.4vw;
     margin-left: -52px;
+    margin-bottom: 0;
 }
 .ContainerThirdText h2 {
+    margin: 0;
     position: relative;
     font-size: 2.3vw;
     width: 100%;
@@ -693,16 +703,23 @@ img.phoneimageIN {
     right: 0;
     top: 0;
     padding-left: 15vw;
-    padding-top: 42vh;
+    padding-top: 10vh;
 }
 .ContainerEightText p {
     width: 88%;
     font-size: 1.4vw;
     margin-left: -52px;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
 .ContainerEightText h2 {
     font-size: 2.3vw;
     width: 100%;
+    margin:0;
+}
+.ContainerEightText.wow.slideInRight {
+    position: absolute;
+    z-index: 10;
 }
 .containerEight1 {
     height: 67%;
@@ -723,12 +740,24 @@ img.phoneimageIN {
     top: 585%;
     width: 100%;
 }
-.lastslide h1{
+.lastslide h1 {
+    border: 3px solid white;
     text-align: center;
     color: white;
-    padding-top: 200px;
-    font-size: 60px;
+   margin: 0 auto;
+    padding: 13px;
     font-family: montserrat;
+    width: 329px;
+    border-radius: 9px;
+}
+.btnCenter {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
+    z-index: 100;
 }
 
 .lastslide p {
@@ -752,16 +781,53 @@ img.phoneimageIN {
 }
 img.ViewApp {
     position: absolute;
-    width: 16%;
-    left: 7vw;
-    bottom: 6vh;
+    width: 33%;
+    margin: 0 auto;
     z-index: 1;
+    left: 0;
+    right: 0;
+}
+.WraptextLastSlide2 {
+    position: absolute;
+    bottom: 0;
+    width: 46%;
+    text-align: left;
+    /* left: 0; */
+    height: 200px;
+    left: 0;
+    right: 0;
 }
 .WraptextLastSlide {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
+}
+.WraptextLastSlide2 h2 {
+    left: 18%;
+    margin-right: 0;
+}
+p.wow.slideInRight.contact {
+    margin-right: 150px;
+    color: white;
+    bottom: 10vh;
+    font-size: 1.2vw;
+    font-family: montserrat;
+    position: absolute;
+    right: 0;
+    left: 18%;
+    margin-bottom: -8%;
+}
+p.wow.slideInRight.contact2 {
+    margin-right: 150px;
+    color: white;
+    bottom: 10vh;
+    font-size: 1.2vw;
+    font-family: montserrat;
+    position: absolute;
+    right: 0;
+    left: 18%;
+    margin-bottom: -3%;
 }
 
    .swiper-container {
@@ -773,7 +839,6 @@ img.ViewApp {
         text-align: center;
         font-size: 18px;
         background: #fff;
-        /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -787,3 +852,116 @@ img.ViewApp {
         -webkit-align-items: center;
         align-items: center;
     }
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    bottom: -30px;
+    width: 100%;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #193e82 !important;
+}
+.swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    display: inline-block;
+    border-radius: 100%;
+    background: #3e6ca5 !important;
+    opacity: 0.2;
+    margin-left: 15px;
+}
+
+
+.visible {
+    overflow: hidden;
+    height: 46px;
+    display: inline-block;
+    margin-bottom: -13px;
+    text-align: left;
+}
+
+
+
+.visible ul {
+    line-height: 22px;
+    padding-left: 0;
+    margin-top: 0px;
+    text-align: left;
+    list-style: none;
+    -webkit-animation: 6s linear 0s normal none infinite change;
+    animation: 10s linear 0s normal none infinite change;
+}
+.visible ul li {
+  line-height: 40px;
+  margin: 0;
+}
+
+@-webkit-keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
+@keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
