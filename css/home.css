@@ -1,5 +1,8 @@
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .wow {
    visibility: hidden;
 }
