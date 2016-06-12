@@ -147,7 +147,7 @@
             preloadImages: true,
             updateOnImagesReady: true,
             // loop
-            loop: false,
+            loop: true,
             loopAdditionalSlides: 0,
             loopedSlides: null,
             // Control
