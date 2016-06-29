@@ -1,7 +1,15 @@
 angular.module('Impactrun', []).controller('HomeController', HomeController);
 
-function HomeController($scope) {
+function HomeController($scope, $location, anchorSmoothScroll) {
+ $scope.gotoElement = function (eID){
+      // set the location.hash to the id of
+      // the element you wish to scroll to.
+      $location.hash('bottom');
 
+      // call $anchorScroll()
+      anchorSmoothScroll.scrollTo(eID);
+
+    };
     var loader = function() {
         $("#loader").delay(4000).fadeOut(400, function() {
             $("body").fadeIn(400);
