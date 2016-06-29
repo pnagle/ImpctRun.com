@@ -1,7 +1,7 @@
 angular.module('Impactrun', []).controller('HomeController', HomeController);
 
 function HomeController($scope) {
-    
+
     var loader = function() {
         $("#loader").delay(4000).fadeOut(400, function() {
             $("body").fadeIn(400);
@@ -101,7 +101,7 @@ function HomeController($scope) {
     // })(window);
 
 
-    
+
     $(document).ready(function() {
         loader();
     });
